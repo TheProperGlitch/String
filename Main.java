@@ -10,6 +10,13 @@ public class Main {
         int[] test = {0,1,2,3};
         for (int i = 0; i < test.length; i++)
         System.out.print(reverse(test)[i]+",");
-
+        System.out.println("");
+        MyString that = new MyString("Hello!");
+        System.out.println(that.substring(1,3));
+        System.out.println("Break");
+        MyString full = new MyString("abcdefg");
+        MyString chunk = new MyString("def");
+        System.out.println(full.indexOf(chunk));
     }
+    
 }
